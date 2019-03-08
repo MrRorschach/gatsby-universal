@@ -4,17 +4,21 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
-import IOExample from 'components/io-example';
-import Modal from 'containers/modal';
+// import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
   <Layout>
     <Box>
-      <Title as="h2" size="large">
-        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
+      <Title as="h1" size="large">
+        <div
+          dangerouslySetInnerHTML={{
+            __html: data.homeJson.content.childMarkdownRemark.html,
+          }}
+        />
       </Title>
-      <Modal>
+
+      {/* <Modal>
         <video
           src="https://i.imgur.com/gzFqNSW.mp4"
           playsInline
@@ -22,11 +26,9 @@ const Index = ({ data }) => (
           autoPlay
           muted
         />
-      </Modal>
+      </Modal> */}
     </Box>
     <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
-    <IOExample />
   </Layout>
 );
 
@@ -49,6 +51,7 @@ export const query = graphql`
       gallery {
         title
         copy
+        link
         image {
           childImageSharp {
             fluid(maxHeight: 500, quality: 90) {

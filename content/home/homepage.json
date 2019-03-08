@@ -1,19 +1,22 @@
 {
-  "title": "Home",
+  "title": "Hi",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "title": "Austin Community College Websites",
+    "copy": "React/SASS/Foundation/Jest for some new projects WordPress for old projects. Stack is always evolving",
+    "image": "../images/gallery/acc.png",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "title": "Hardware Enthusiast",
+    "copy": "From my Master's Thesis project of a pop up book with embedded circuits to building 3D printers from a 1000 piece kit",
+    "image": "../images/gallery/sparky.png",
+    "link": "https://www.instagram.com/project_daffodil/"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "title": "IoT Art Engineer",
+    "copy": "Made various artist's visions come to life using Arduinos/C/Linux/Solder Irons and many late nights",
+    "image": "../images/gallery/art.png",
+    "link": "http://davidgurman.com/reflector/"
   }]
 }
