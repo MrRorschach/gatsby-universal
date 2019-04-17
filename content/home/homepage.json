@@ -18,5 +18,11 @@
     "copy": "Made various artist's visions come to life using Arduinos/C/Linux/Solder Irons and many late nights",
     "image": "../images/gallery/art.png",
     "link": "http://davidgurman.com/reflector/"
+  },
+  {
+    "title": "37th Street Lights Organizer",
+    "copy": "Helped organize our local community to bring back one of Austin's weirdest traditions",
+    "image": "../images/gallery/lights.png",
+    "link": "https://www.austin360.com/news/20181210/its-back-neighbors-band-together-to-revive-austins-beloved-37th-street-holiday-light-tradition"
   }]
 }
